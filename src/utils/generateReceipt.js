@@ -27,7 +27,7 @@ const formatDate = () => new Date().toLocaleString();
 
 // ---------------- GENERATE ITEMS ----------------
 const generateItems = (products) => {
-  const itemCount = getRandomInt(1, 5);
+  const itemCount = getRandomInt(1, 3);
   const items = [];
 
   for (let i = 0; i < itemCount; i++) {

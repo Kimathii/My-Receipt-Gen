@@ -12,7 +12,10 @@ const Receipt = () => {
 const LOGO_MAP = {
   "Eukanuba Pet Food": "/logos/ekunaba.png",
   "Pure Encapsulations": "/logos/pure.png",
-  "Bacardi Ocho": "/logos/bacardi.png"
+  "Bacardi Ocho": "/logos/bacardi.png",
+  "Tractor Supply Co": "/logos/tractor.png",
+  "The Vitamin Shoppe": "/logos/vitamin.png",
+  "Amazon": "/logos/amazon.png"
 };
 
   return (
@@ -27,7 +30,7 @@ const LOGO_MAP = {
   />
 </div>
 
-      <h1>{receipt.company}</h1>
+      {/* <h1>{receipt.company}</h1> */}
       <p className="slogan">{receipt.slogan}</p>
 
       <p className="center">{receipt.address}</p>
