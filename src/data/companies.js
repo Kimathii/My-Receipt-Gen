@@ -46,34 +46,34 @@ const companies = [
   },
 
 
-    {
-    store: "Eukanuba Pet Food",
-    name: "Tractor Supply Co",
-    slogan: "For Life Out Here",
-    phone: "(502) 874-8000",
-    locations: [
-      { address: "4331 Bardstown Rd, Louisville, KY 40218", state: "KY" },
-      { address: "4000 Shelbyville Rd, Louisville, KY 40207", state: "KY" },
-      { address: "1025 Veterans Pkwy, Clarksville, IN 47129", state: "KY" }
-    ],
-    products: [
-    { name: "Royal Canin Size Health Nutrition Mini Adult Dry Dog Food (8.8 lb)", price: 52.99 },
-{ name: "Royal Canin Size Health Nutrition Medium Adult Dry Dog Food (15 lb)", price: 74.99 },
-{ name: "Royal Canin Size Health Nutrition Maxi Adult Dry Dog Food (30 lb)", price: 119.99 },
-{ name: "Royal Canin Breed Health Nutrition German Shepherd Adult Dry Dog Food (30 lb)", price: 134.99 },
-{ name: "Royal Canin Breed Health Nutrition Labrador Retriever Adult Dry Dog Food (30 lb)", price: 129.99 },
-{ name: "Royal Canin Breed Health Nutrition French Bulldog Adult Dry Dog Food (12 lb)", price: 89.99 },
-{ name: "Royal Canin Breed Health Nutrition Chihuahua Adult Dry Dog Food (6 lb)", price: 49.99 },
-{ name: "Royal Canin Veterinary Diet Gastrointestinal Low Fat Dry Dog Food (24 lb)", price: 101.99 },
-{ name: "Royal Canin Veterinary Diet Hydrolyzed Protein Adult HP Dry Dog Food (24 lb)", price: 107.99 },
-{ name: "Royal Canin Veterinary Diet Renal Support Dry Dog Food (24 lb)", price: 104.99 },
-{ name: "Royal Canin Calm Adult Dry Dog Food (24 lb)", price: 99.99 },
-{ name: "Royal Canin Adult Sensitive Stomach Dry Dog Food (24 lb)", price: 97.99 },
-{ name: "Royal Canin Puppy Large Breed Dry Dog Food (30 lb)", price: 103.99 },
-{ name: "Royal Canin Puppy Medium Breed Dry Dog Food (22 lb)", price: 92.99 },
-{ name: "Royal Canin Puppy Small Breed Dry Dog Food (8.8 lb)", price: 54.99 },
-    ]
-  },
+//     {
+//     store: "Eukanuba Pet Food",
+//     name: "Tractor Supply Co",
+//     slogan: "For Life Out Here",
+//     phone: "(502) 874-8000",
+//     locations: [
+//       { address: "4331 Bardstown Rd, Louisville, KY 40218", state: "KY" },
+//       { address: "4000 Shelbyville Rd, Louisville, KY 40207", state: "KY" },
+//       { address: "1025 Veterans Pkwy, Clarksville, IN 47129", state: "KY" }
+//     ],
+//     products: [
+//     { name: "Royal Canin Size Health Nutrition Mini Adult Dry Dog Food (8.8 lb)", price: 52.99 },
+// { name: "Royal Canin Size Health Nutrition Medium Adult Dry Dog Food (15 lb)", price: 74.99 },
+// { name: "Royal Canin Size Health Nutrition Maxi Adult Dry Dog Food (30 lb)", price: 119.99 },
+// { name: "Royal Canin Breed Health Nutrition German Shepherd Adult Dry Dog Food (30 lb)", price: 134.99 },
+// { name: "Royal Canin Breed Health Nutrition Labrador Retriever Adult Dry Dog Food (30 lb)", price: 129.99 },
+// { name: "Royal Canin Breed Health Nutrition French Bulldog Adult Dry Dog Food (12 lb)", price: 89.99 },
+// { name: "Royal Canin Breed Health Nutrition Chihuahua Adult Dry Dog Food (6 lb)", price: 49.99 },
+// { name: "Royal Canin Veterinary Diet Gastrointestinal Low Fat Dry Dog Food (24 lb)", price: 101.99 },
+// { name: "Royal Canin Veterinary Diet Hydrolyzed Protein Adult HP Dry Dog Food (24 lb)", price: 107.99 },
+// { name: "Royal Canin Veterinary Diet Renal Support Dry Dog Food (24 lb)", price: 104.99 },
+// { name: "Royal Canin Calm Adult Dry Dog Food (24 lb)", price: 99.99 },
+// { name: "Royal Canin Adult Sensitive Stomach Dry Dog Food (24 lb)", price: 97.99 },
+// { name: "Royal Canin Puppy Large Breed Dry Dog Food (30 lb)", price: 103.99 },
+// { name: "Royal Canin Puppy Medium Breed Dry Dog Food (22 lb)", price: 92.99 },
+// { name: "Royal Canin Puppy Small Breed Dry Dog Food (8.8 lb)", price: 54.99 },
+//     ]
+//   },
 //   {
 //     store: "Pure Encapsulations",
 //     name: "The Vitamin Shoppe",
