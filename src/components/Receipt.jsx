@@ -15,7 +15,9 @@ const LOGO_MAP = {
   "Bacardi Ocho": "/logos/bacardi.png",
   "Tractor Supply Co": "/logos/tractor.png",
   "The Vitamin Shoppe": "/logos/vitamin.png",
-  "Amazon": "/logos/amazon.png"
+  "Amazon": "/logos/amazon.png",
+  "Sam's Club": "/logos/sams.png",
+  "Petco": "/logos/petco.png"
 };
 
   return (
