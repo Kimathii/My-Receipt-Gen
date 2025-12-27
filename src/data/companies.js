@@ -116,7 +116,7 @@ const companies = [
     // { name: "Victor Allen’s Signature Medium-Dark Roast Coffee Pods Variety Pack, 60 ct", price: 14.98 },
     // { name: "Victor Allen’s Premium Coffee Pods Colombia Blend, 15 Pods", price: 4.99 },
     // { name: "Victor Allen’s Premium Coffee Pods Espresso Roast, 15 Pods", price: 4.99 },
-    // { name: "Victor Allen’s Premium Coffee Pods Mexico Blend, 15 Pods", price: 4.99 },
+    { name: "Twinings English Breakfast Tea (100-count box)", price: 15.99 },
     // { name: "Victor Allen’s Premium Coffee Pods Brazil Blend, 15 Pods", price: 4.99 },
     // { name: "Victor Allen’s Flavored Coffee Pods Variety Pack (French Vanilla/Caramel Macchiato/Hazelnut), 60 ct", price: 12.99 },
     { name: "Victor Allen’s Signature Coffee Pods Variety Pack (Morning Blend/French Roast/Donut Shop), 60 ct", price: 17.99 },
