@@ -8,9 +8,17 @@ const companies = [
     slogan: "For Life Out Here",
     phone: "(502) 874-8000",
     locations: [
-      { address: "4331 Bardstown Rd, Louisville, KY 40218", state: "KY" },
-      { address: "4000 Shelbyville Rd, Louisville, KY 40207", state: "KY" },
-      { address: "1025 Veterans Pkwy, Clarksville, IN 47129", state: "KY" }
+{ address: "4331 Bardstown Rd, Louisville, KY 40218", state: "KY" },
+{ address: "4000 Shelbyville Rd, Louisville, KY 40207", state: "KY" },
+{ address: "1025 Veterans Pkwy, Clarksville, IN 47129", state: "IN" },
+{ address: "757 E Lewis and Clark Pkwy, Clarksville, IN 47129", state: "IN" },
+{ address: "3500 Grant Line Rd, New Albany, IN 47150", state: "IN" },
+{ address: "4600 Shelbyville Rd, Louisville, KY 40207", state: "KY" },
+{ address: "201 S Hurstbourne Pkwy, Louisville, KY 40222", state: "KY" },
+{ address: "3891 Truxel Rd, Sacramento, CA 95834", state: "CA" },
+{ address: "1750 E Golf Rd, Schaumburg, IL 60173", state: "IL" },
+{ address: "2700 E Fowler Ave, Tampa, FL 33612", state: "FL" }
+
     ],
     products: [
  { name: "Eukanuba Puppy Small Breed Fresh Chicken Dry Dog Food", price: 36.99 },
@@ -52,9 +60,17 @@ const companies = [
     slogan: "For Life Out Here",
     phone: "(502) 874-8000",
     locations: [
-      { address: "4331 Bardstown Rd, Louisville, KY 40218", state: "KY" },
-      { address: "4000 Shelbyville Rd, Louisville, KY 40207", state: "KY" },
-      { address: "1025 Veterans Pkwy, Clarksville, IN 47129", state: "KY" }
+     { address: "4600 Shelbyville Rd, Louisville, KY 40207", state: "KY" },
+{ address: "191 Outer Loop, Louisville, KY 40214", state: "KY" },
+{ address: "5000 Shelbyville Rd, Louisville, KY 40207", state: "KY" },
+{ address: "1960 W Broadway, Louisville, KY 40203", state: "KY" },
+      { address: "150 E 42nd St, New York, NY 10017", state: "NY" },
+      { address: "250 Summer St, Boston, MA 02210", state: "MA" },
+      { address: "600 N Michigan Ave, Chicago, IL 60611", state: "IL" },
+{ address: "3411 Bardstown Rd, Louisville, KY 40218", state: "KY" },
+{ address: "12900 Shelbyville Rd, Louisville, KY 40243", state: "KY" },
+{ address: "4101 Towne Center Dr, Louisville, KY 40241", state: "KY" },
+{ address: "12301 Shelbyville Rd, Louisville, KY 40243", state: "KY" }
     ],
     products: [
     { name: "Royal Canin Size Health Nutrition Mini Adult Dry Dog Food (8.8 lb)", price: 52.99 },
@@ -80,9 +96,9 @@ const companies = [
 //     slogan: "Everyone is deserving of good health",
 //     phone: "(203) 877-4281",
 //     locations: [
-//       { address: "150 E 42nd St, New York, NY 10017", state: "NY" },
-//       { address: "250 Summer St, Boston, MA 02210", state: "MA" },
-//       { address: "600 N Michigan Ave, Chicago, IL 60611", state: "IL" }
+      // { address: "150 E 42nd St, New York, NY 10017", state: "NY" },
+      // { address: "250 Summer St, Boston, MA 02210", state: "MA" },
+      // { address: "600 N Michigan Ave, Chicago, IL 60611", state: "IL" }
 //     ],
 //     products: [
     
@@ -110,6 +126,9 @@ const companies = [
     { address: "1225 Concord Ave, Concord, CA 94520", state: "CA" },
     { address: "8250 Power Inn Rd, Sacramento, CA 95828", state: "CA" },
     { address: "6336 College Grove Way, San Diego, CA 92115", state: "CA" },
+         { address: "150 E 42nd St, New York, NY 10017", state: "NY" },
+      { address: "250 Summer St, Boston, MA 02210", state: "MA" },
+      { address: "600 N Michigan Ave, Chicago, IL 60611", state: "IL" },
     { address: "7147 Greenback Ln, Citrus Heights, CA 95621", state: "CA" }
   ],
   products: [
