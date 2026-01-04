@@ -23,14 +23,25 @@ const getRandomItem = (arr) => arr[Math.floor(Math.random() * arr.length)];
 const priceWithVariance = (price) => +(price + (Math.random() * 4 - 2)).toFixed(2);
 
 const generateOrderNumber = () => `#${getRandomInt(10000, 99999)}`;
-const formatDate = () => new Date().toLocaleString('en-US', {
-  weekday: 'short',
-  month: 'short',
-  day: 'numeric',
-  year: 'numeric',
-  hour: '2-digit',
-  minute: '2-digit'
-});
+const formatDate = () => {
+  const d = new Date();
+
+  const month = String(d.getMonth() + 1).padStart(2, "0");
+  const day = String(d.getDate()).padStart(2, "0");
+  const year = d.getFullYear();
+
+  let hours = d.getHours();
+  const minutes = String(d.getMinutes()).padStart(2, "0");
+  const ampm = hours >= 12 ? "PM" : "AM";
+
+  hours = hours % 12;
+  hours = hours ? hours : 12; // 12 instead of 0
+  hours = String(hours).padStart(2, "0");
+
+  return `${month}/${day}/${year} ${hours}:${minutes} ${ampm}`;
+};
+
+
 
 // ---------------- GENERATE ITEMS ----------------
 const generateItems = (products) => {

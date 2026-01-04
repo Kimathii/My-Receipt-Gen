@@ -42,8 +42,8 @@ font-size: 18px;
 }
 
 .receipt .receipt-logo {
-  max-width: 130px;
-  max-height: 90px;
+  max-width: 150px;
+  max-height: 100px;
   object-fit: contain;
   display: inline-block;
   margin-bottom: 0;
