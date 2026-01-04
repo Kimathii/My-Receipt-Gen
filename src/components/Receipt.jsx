@@ -72,21 +72,21 @@ const LOGO_MAP = {
 
       <div className="totals">
   <p>
-    <span>Subtotal</span>
+    <span>Subtotal:</span>
     <span className="amount">
       ${Number(receipt.subtotal).toFixed(2)}
     </span>
   </p>
 
   <p>
-    <span>Tax</span>
+    <span>Tax:</span>
     <span className="amount">
       ${Number(receipt.tax).toFixed(2)}
     </span>
   </p>
 
   <p>
-    <strong>TOTAL</strong>
+    <strong>TOTAL:</strong>
     <strong className="amount">
       ${Number(receipt.total).toFixed(2)}
     </strong>

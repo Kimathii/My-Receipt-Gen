@@ -100,17 +100,25 @@ font-size: 18px;
 .receipt .totals {
   font-size: 0.95rem;
   margin-top: 2px;
-  text-align: center;
+  text-align: right;
   
 }
 .receipt .totals p {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: flex-start; 
+  gap: 15px;         */
   margin: 2px 0;
-  
 }
+
+.receipt.tax{
+  display: flex;
+ justify-content: flex-start; 
+  gap: 20px;   
+}
+
 .receipt .totals p:last-child {
   margin-top: 8px;
+
 }
 .receipt .totals strong {
   font-size: 1.05rem;
