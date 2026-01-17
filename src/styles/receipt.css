@@ -1,14 +1,14 @@
 body {
   background: #f4f4f4;
-font-family: "VT323", monospace;
-font-size: 18px;
+  font-family: "VT323", monospace;
+  font-size: 18px;
   padding-top: 12px;
   padding-bottom: 12px;
 }
 
 /* RECEIPT CONTAINER */
 .receipt {
-   width: 260px; 
+  width: 260px;
   max-width: 92vw;
   background: #fff;
   margin: 40px auto;
@@ -16,6 +16,7 @@ font-size: 18px;
   border-radius: 12px;
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
   color: #000;
+  position: relative;
 }
 
 .receipt.petco::before {
@@ -33,12 +34,10 @@ font-size: 18px;
   white-space: nowrap;
 }
 
-
 /* LOGO */
 .receipt .logo-container {
   text-align: center;
   margin-top: 20px;
-  /* filter: grayscale(90%); */
 }
 
 .receipt .receipt-logo {
@@ -100,30 +99,30 @@ font-size: 18px;
 .receipt .totals {
   font-size: 0.95rem;
   margin-top: 2px;
-  text-align: right;
-  
 }
+
 .receipt .totals p {
   display: flex;
-  /* justify-content: flex-start; 
-  gap: 15px;         */
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 30%;
   margin: 2px 0;
 }
 
-.receipt.tax{
-  display: flex;
- justify-content: flex-start; 
-  gap: 20px;   
+.receipt .totals .amount {
+  min-width: 80px;
+  text-align: right;
 }
 
 .receipt .totals p:last-child {
   margin-top: 8px;
-
 }
+
 .receipt .totals strong {
   font-size: 1.05rem;
 }
 
+/* PAYMENTS */
 .receipt .section-title {
   text-align: center;
   font-size: 0.85rem;
@@ -138,7 +137,6 @@ font-size: 18px;
   margin: 2px 0;
 }
 
-
 /* THANK YOU */
 .receipt .thank-you {
   text-align: center;
@@ -152,7 +150,7 @@ font-size: 18px;
   margin-top: 20px;
   padding: 8px;
   border: none;
-  border-radius: 8px;          
+  border-radius: 8px;
   background: #000;
   color: #fff;
   cursor: pointer;
@@ -192,14 +190,13 @@ font-size: 18px;
     #fff 17px
   );
   background-size: 180px 100%;
-  /* border: 1px solid #000; */
   image-rendering: pixelated;
   display: inline-block;
 }
 
 .receipt .barcode-label {
   margin: 0;
-  font-family: 'Courier New', monospace;
+  font-family: "Courier New", monospace;
   font-size: 0.95rem;
   letter-spacing: 3px;
 }
@@ -207,6 +204,6 @@ font-size: 18px;
 /* SMALL SCREENS */
 @media (max-width: 360px) {
   .receipt {
-    padding: 8px;        
+    padding: 8px;
   }
 }

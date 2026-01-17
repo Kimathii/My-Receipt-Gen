@@ -53,7 +53,10 @@ const generateItems = (products) => {
     const quantity = getRandomInt(1, 3);
     const price = priceWithVariance(product.price);
 
+    const itemNumber = getRandomInt(10000000, 99999999);
+
     items.push({
+      itemNumber,
       name: product.name,
       quantity,
       price,
