@@ -39,7 +39,7 @@ const Receipt = () => {
         />
       </div>
 
-      {/* <p className="slogan">{receipt.slogan}</p> */}
+      <p className="slogan">{receipt.slogan}</p>
       <p className="center">{receipt.address}</p>
       <p className="center">{receipt.phone}</p>
 

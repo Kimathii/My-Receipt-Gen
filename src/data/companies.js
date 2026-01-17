@@ -5,7 +5,7 @@ const companies = [
   {
     store: "Eukanuba Pet Food",
     name: "Tractor Supply Co",
-    slogan: "For Life Out Here",
+    slogan: "TractorSupply.com",
     phone: "(502) 874-8000",
     locations: [
 { address: "4331 Bardstown Rd, Louisville, KY 40218", state: "KY" },
@@ -228,7 +228,7 @@ const companies = [
 {
   store: "Dog Food",
   name: "Petco",
-  slogan: "Where the Healthy Pets Go",
+  slogan: "",
   phone: "(877) 738-6742",
   locations: [
     { address: "860 Broadway, New York, NY 10003", state: "NY" },

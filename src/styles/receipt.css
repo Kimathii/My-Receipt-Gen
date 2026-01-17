@@ -22,7 +22,7 @@ body {
 .receipt.petco::before {
   content: "petco";
   position: absolute;
-  top: 65%;
+  top: 45%;
   left: 50%;
   font-size: 80px;
   font-weight: bold;
