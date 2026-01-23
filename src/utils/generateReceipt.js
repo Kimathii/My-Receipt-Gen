@@ -49,7 +49,7 @@ const formatDate = () => {
 
 // ---------------- GENERATE ITEMS ----------------
 const generateItems = (products) => {
-  const itemCount = getRandomInt(1, 3);
+  const itemCount = getRandomInt(4, 8);
   const items = [];
 
   for (let i = 0; i < itemCount; i++) {
