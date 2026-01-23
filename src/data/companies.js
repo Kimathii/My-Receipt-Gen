@@ -84,7 +84,7 @@ const companies = [
   // // { name: "Royal Canin Puppy Large Breed Dry Dog Food (30 lb)", price: 103.99 },
   // // { name: "Royal Canin Puppy Medium Breed Dry Dog Food (22 lb)", price: 92.99 },
   // // { name: "Royal Canin Puppy Small Breed Dry Dog Food (8.8 lb)", price: 54.99 },
-  //   },
+    },
 
 
   // {
