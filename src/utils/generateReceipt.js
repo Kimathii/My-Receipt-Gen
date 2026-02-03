@@ -49,19 +49,69 @@ const formatDate = () => {
 
 // ---------------- GENERATE ITEMS ----------------
 const generateItems = (products, companyName) => {
-  // Special case for Sam's Club: always show both products, one of each
+  // Special case for Sam's Club: always show all products, one of each, no item number
   if (companyName === "Sam's Club") {
     return products.map((product) => {
-      const itemNumber = getRandomInt(10000000, 99999999);
       const price = product.price; // Use exact price for memberships
       return {
-        itemNumber,
+        itemNumber: null, // No item number for Sam's Club
         name: product.name,
         quantity: 1,
         price,
         total: price
       };
     });
+  }
+
+  // Special case for Petco: 1 bowl product + 2 different 3.5 oz (12 Count) products
+  if (companyName === "Petco") {
+    const items = [];
+
+    // Filter bowl products (Bowls or Meals, but not the Multipack or Variety Pack products)
+    const bowlProducts = products.filter(p =>
+      (p.name.includes("Bowls") || p.name.includes("Meals")) &&
+      !p.name.includes("Multipack") &&
+      !p.name.includes("Variety Pack")
+    );
+
+    // Filter 3.5 oz (12 Count Multipack) products
+    const twelveCountProducts = products.filter(p =>
+      p.name.includes("3.5 oz (12 Count Multipack)")
+    );
+
+    // Pick 1 random bowl product
+    if (bowlProducts.length > 0) {
+      const bowl = getRandomItem(bowlProducts);
+      const quantity = getRandomInt(2, 3);
+      const price = priceWithVariance(bowl.price);
+      items.push({
+        itemNumber: getRandomInt(10000000, 99999999),
+        name: bowl.name,
+        quantity,
+        price,
+        total: +(price * quantity).toFixed(2)
+      });
+    }
+
+    // Pick 2 different random 12-count products
+    if (twelveCountProducts.length >= 2) {
+      const shuffled = [...twelveCountProducts].sort(() => Math.random() - 0.5);
+      const selected = shuffled.slice(0, 2);
+
+      for (const product of selected) {
+        const quantity = getRandomInt(2, 3);
+        const price = priceWithVariance(product.price);
+        items.push({
+          itemNumber: getRandomInt(10000000, 99999999),
+          name: product.name,
+          quantity,
+          price,
+          total: +(price * quantity).toFixed(2)
+        });
+      }
+    }
+
+    return items;
   }
 
   // Default behavior for other companies

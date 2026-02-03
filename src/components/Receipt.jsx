@@ -60,13 +60,17 @@ const Receipt = () => {
             <span>
               {receipt.company === "Petco" ? (
                 <>
-                  <span className="item-number">{item.itemNumber}</span>{" "}
+                  {item.itemNumber && <span className="item-number">{item.itemNumber}</span>}{" "}
                   {item.quantity}x {item.name}
+                </>
+              ) : receipt.company === "Sam's Club" ? (
+                <>
+                  {item.name}
                 </>
               ) : (
                 <>
                   {item.quantity}x {item.name}{" "}
-                  <span className="item-number">{item.itemNumber}</span>
+                  {item.itemNumber && <span className="item-number">{item.itemNumber}</span>}
                 </>
               )}
             </span>
@@ -122,7 +126,14 @@ const Receipt = () => {
         <div className="barcode-label">{receipt.orderNumber}</div>
       </div>
 
-      <p className="thank-you">Thank you for your visit!</p>
+      <p className="thank-you">
+        {receipt.company === "Sam's Club"
+          ? "Visit Sam's club to see your savings"
+          : "Thank you for your visit!"}
+      </p>
+      {receipt.company === "Sam's Club" && (
+        <p className="member-copy"><strong>**MEMBER COPY**</strong></p>
+      )}
     </div>
   );
 };

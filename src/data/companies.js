@@ -2,22 +2,22 @@
 // Only 3 brands: Eukanuba Pet Food, Pure Encapsulations, Bacardi Ocho
 
 const companies = [
-    {
-      store: "Eukanuba Pet Food",
-      name: "Tractor Supply Co",
-      slogan: "TractorSupply.com",
-      phone: "(502) 874-8000",
-      locations: [
-  { address: "4331 Bardstown Rd, Louisville, KY 40218", state: "KY" },
-  { address: "4000 Shelbyville Rd, Louisville, KY 40207", state: "KY" },
-  { address: "1025 Veterans Pkwy, Clarksville, IN 47129", state: "IN" },
-  { address: "757 E Lewis and Clark Pkwy, Clarksville, IN 47129", state: "IN" },
-  { address: "3500 Grant Line Rd, New Albany, IN 47150", state: "IN" },
-  { address: "4600 Shelbyville Rd, Louisville, KY 40207", state: "KY" },
-  { address: "201 S Hurstbourne Pkwy, Louisville, KY 40222", state: "KY" },
-  { address: "3891 Truxel Rd, Sacramento, CA 95834", state: "CA" },
-  { address: "1750 E Golf Rd, Schaumburg, IL 60173", state: "IL" },
-  { address: "2700 E Fowler Ave, Tampa, FL 33612", state: "FL" },
+  {
+    store: "Eukanuba Pet Food",
+    name: "Tractor Supply Co",
+    slogan: "TractorSupply.com",
+    phone: "(502) 874-8000",
+    locations: [
+      { address: "4331 Bardstown Rd, Louisville, KY 40218", state: "KY" },
+      { address: "4000 Shelbyville Rd, Louisville, KY 40207", state: "KY" },
+      { address: "1025 Veterans Pkwy, Clarksville, IN 47129", state: "IN" },
+      { address: "757 E Lewis and Clark Pkwy, Clarksville, IN 47129", state: "IN" },
+      { address: "3500 Grant Line Rd, New Albany, IN 47150", state: "IN" },
+      { address: "4600 Shelbyville Rd, Louisville, KY 40207", state: "KY" },
+      { address: "201 S Hurstbourne Pkwy, Louisville, KY 40222", state: "KY" },
+      { address: "3891 Truxel Rd, Sacramento, CA 95834", state: "CA" },
+      { address: "1750 E Golf Rd, Schaumburg, IL 60173", state: "IL" },
+      { address: "2700 E Fowler Ave, Tampa, FL 33612", state: "FL" },
       { address: "450 S Orange Ave, Orlando, FL 32801", state: "FL" },
       { address: "800 N Magnolia Ave, Orlando, FL 32803", state: "FL" },
       { address: "25-01 Jackson Ave, Long Island City, NY 11101", state: "NY" },
@@ -52,23 +52,23 @@ const companies = [
       { address: "160-08 Jamaica Ave, Jamaica, NY 11432", state: "NY" },
       { address: "9100 International Dr, Orlando, FL 32819", state: "FL" }
 
-      ],
-      products: [
-   { name: "Eukanuba Puppy Small Breed Fresh Chicken Dry Dog Food", price: 36.99 },
-    { name: "Eukanuba Puppy Small/Medium Breed Lamb & Rice Dry Dog Food", price: 38.99 },
-    { name: "Eukanuba Puppy Medium Breed Fresh Chicken Dry Dog Food", price: 39.99 },
-    { name: "Eukanuba Puppy Large Breed Fresh Chicken Dry Dog Food", price: 42.99 },
-    { name: "Eukanuba Adult Small Breed Fresh Chicken Dry Dog Food", price: 41.99 },
-    { name: "Eukanuba Adult Small/Medium Breed Lamb & Rice Dry Dog Food", price: 43.99 },
-    { name: "Eukanuba Adult Small/Medium Breed Salmon & Barley Dry Dog Food", price: 45.99 },
-    { name: "Eukanuba Adult Medium Breed Fresh Chicken Dry Dog Food", price: 44.99 },
-    { name: "Eukanuba Adult Large Breed Fresh Chicken Dry Dog Food", price: 47.99 },
-    { name: "Eukanuba Adult Large Breed Lamb & Rice Dry Dog Food", price: 46.99 },
-    { name: "Eukanuba Grain Free Adult Small/Medium Breed Chicken Dry Dog Food", price: 52.99 },
-    { name: "Eukanuba Adult Small Bites Dry Dog Food", price: 40.99 },
-    { name: "Eukanuba Adult Dry Dog Food for Medium Dogs", price: 42.99 }
-      ]
-    },
+    ],
+    products: [
+      { name: "Eukanuba Puppy Small Breed Fresh Chicken Dry Dog Food", price: 36.99 },
+      { name: "Eukanuba Puppy Small/Medium Breed Lamb & Rice Dry Dog Food", price: 38.99 },
+      { name: "Eukanuba Puppy Medium Breed Fresh Chicken Dry Dog Food", price: 39.99 },
+      { name: "Eukanuba Puppy Large Breed Fresh Chicken Dry Dog Food", price: 42.99 },
+      { name: "Eukanuba Adult Small Breed Fresh Chicken Dry Dog Food", price: 41.99 },
+      { name: "Eukanuba Adult Small/Medium Breed Lamb & Rice Dry Dog Food", price: 43.99 },
+      { name: "Eukanuba Adult Small/Medium Breed Salmon & Barley Dry Dog Food", price: 45.99 },
+      { name: "Eukanuba Adult Medium Breed Fresh Chicken Dry Dog Food", price: 44.99 },
+      { name: "Eukanuba Adult Large Breed Fresh Chicken Dry Dog Food", price: 47.99 },
+      { name: "Eukanuba Adult Large Breed Lamb & Rice Dry Dog Food", price: 46.99 },
+      { name: "Eukanuba Grain Free Adult Small/Medium Breed Chicken Dry Dog Food", price: 52.99 },
+      { name: "Eukanuba Adult Small Bites Dry Dog Food", price: 40.99 },
+      { name: "Eukanuba Adult Dry Dog Food for Medium Dogs", price: 42.99 }
+    ]
+  },
 
 
   // {
@@ -90,14 +90,14 @@ const companies = [
   //     { name: "Vital Proteins Gummies", price: 29.99 },
   //     { name: "Orgain Organic Protein Powder (Chocolate/Vanilla)", price: 21.97 },
   //     { name: "IBgard Abdominal Comfort Digestive Supplement", price: 39.99 },
-  //     { name: "Schwarzkopf®️ Keratin Color Hair Color (average)", price: 11.97 },
+  //     { name: "Schwarzkopf Keratin Color Hair Color (average)", price: 11.97 },
   //     { name: "Garden of Life Raw Organic Protein Powder", price: 35.69 },
   //     { name: "Colgate Holiday Gift Set", price: 14.88 },
   //     { name: "Rold Gold Pretzels (select varieties)", price: 3.98 },
   //     { name: "Boost High Protein", price: 19.97 },
   //     { name: "Filtrete MPR Refillable Air Filter Starter Kit", price: 89.99 }
   //   ]
-    // //     { name: "Royal Canin Size Health Nutrition Mini Adult Dry Dog Food (8.8 lb)", price: 52.99 },
+  // //     { name: "Royal Canin Size Health Nutrition Mini Adult Dry Dog Food (8.8 lb)", price: 52.99 },
   // // { name: "Royal Canin Size Health Nutrition Medium Adult Dry Dog Food (15 lb)", price: 74.99 },
   // // { name: "Royal Canin Size Health Nutrition Maxi Adult Dry Dog Food (30 lb)", price: 119.99 },
   // // { name: "Royal Canin Breed Health Nutrition German Shepherd Adult Dry Dog Food (30 lb)", price: 134.99 },
@@ -164,45 +164,45 @@ const companies = [
   //   ]
   // },
 
-  {
-  store: "Chewy",
-  name: "Chewy",
-  slogan: "Where Pet Lovers Shop.",
-  phone: "(800) 672-4399",
-  locations: [
-    { address: "Chewy Corporate Headquarters, 7700 W Sunrise Blvd, Plantation, FL 33322", state: "FL" },
-    { address: "Chewy Fulfillment Center, 50 NE 40th St, Ocala, FL 34479", state: "FL" },
-    { address: "Chewy Fulfillment Center, 4001 E 3rd St, Dayton, OH 45403", state: "OH" },
-    { address: "Chewy Fulfillment Center, 7700 Chewy Blvd, Dallas, TX 75241", state: "TX" },
-    { address: "Chewy Fulfillment Center, 1150 W 2400 S, Salt Lake City, UT 84119", state: "UT" },
-    { address: "Chewy Fulfillment Center, 7701 Chewy Way, Belton, MO 64012", state: "MO" },
-    { address: "Chewy Fulfillment Center, 4010 Premier Pkwy, McDonough, GA 30253", state: "GA" },
-    { address: "Chewy Fulfillment Center, 4010 Amazon Pkwy, Carlisle, PA 17013", state: "PA" }
-  ],
-  products: [
-    { name: "Royal Canin Fresh Health Nutrition Small Adult Dog Food", price: 5.99 },
-    { name: "Royal Canin Fresh Health Nutrition Small Puppy Dog Food", price: 5.99 },
-    { name: "Royal Canin Fresh Health Nutrition Small Senior Dog Food", price: 5.99 },
-    { name: "Royal Canin Fresh Health Nutrition Medium Adult Dog Food", price: 6.99 },
-    { name: "Royal Canin Fresh Health Nutrition Medium Puppy Dog Food", price: 6.99 },
-    { name: "Royal Canin Fresh Health Nutrition Medium Senior Dog Food", price: 6.99 },
-    { name: "Royal Canin Fresh Health Nutrition Large Adult Dog Food", price: 7.99 },
-    { name: "Royal Canin Fresh Health Nutrition Large Puppy Dog Food", price: 7.99 },
-    { name: "Royal Canin Fresh Health Nutrition Large Senior Dog Food", price: 7.99 },
-    { name: "Royal Canin Fresh Health Nutrition Extra Small Adult Dog Food", price: 4.99 },
-    { name: "Royal Canin Fresh Health Nutrition Extra Small Puppy Dog Food", price: 4.99 },
-    { name: "Royal Canin Digestive Care Dry Dog Food 17 lb", price: 95.69 },
-    { name: "Royal Canin Dermacomfort Dry Dog Food 17 lb", price: 89.99 },
-    { name: "Royal Canin Medium Adult Dry Dog Food 30 lb", price: 109.89 },
-    { name: "Royal Canin Large Breed Adult Dry Dog Food 30 lb", price: 119.99 },
-    { name: "Royal Canin Labrador Retriever Adult Dry Dog Food 30 lb", price: 129.99 },
-    { name: "Royal Canin German Shepherd Adult Dry Dog Food 30 lb", price: 139.99 },
-    { name: "Royal Canin Pug Adult Dry Dog Food 10 lb", price: 61.99 },
-    { name: "Royal Canin Yorkshire Terrier Adult Dry Dog Food 10 lb", price: 80.99 },
-    { name: "Royal Canin Miniature Schnauzer Adult Dry Dog Food 10 lb", price: 79.99 },
-    { name: "Royal Canin Probiotics Digestive & Immune Health Powder (7 count)", price: 9.99 }
-  ]
-},
+  //   {
+  //   store: "Chewy",
+  //   name: "Chewy",
+  //   slogan: "Where Pet Lovers Shop.",
+  //   phone: "(800) 672-4399",
+  //   locations: [
+  //     { address: "Chewy Corporate Headquarters, 7700 W Sunrise Blvd, Plantation, FL 33322", state: "FL" },
+  //     { address: "Chewy Fulfillment Center, 50 NE 40th St, Ocala, FL 34479", state: "FL" },
+  //     { address: "Chewy Fulfillment Center, 4001 E 3rd St, Dayton, OH 45403", state: "OH" },
+  //     { address: "Chewy Fulfillment Center, 7700 Chewy Blvd, Dallas, TX 75241", state: "TX" },
+  //     { address: "Chewy Fulfillment Center, 1150 W 2400 S, Salt Lake City, UT 84119", state: "UT" },
+  //     { address: "Chewy Fulfillment Center, 7701 Chewy Way, Belton, MO 64012", state: "MO" },
+  //     { address: "Chewy Fulfillment Center, 4010 Premier Pkwy, McDonough, GA 30253", state: "GA" },
+  //     { address: "Chewy Fulfillment Center, 4010 Amazon Pkwy, Carlisle, PA 17013", state: "PA" }
+  //   ],
+  //   products: [
+  //     { name: "Royal Canin Fresh Health Nutrition Small Adult Dog Food", price: 5.99 },
+  //     { name: "Royal Canin Fresh Health Nutrition Small Puppy Dog Food", price: 5.99 },
+  //     { name: "Royal Canin Fresh Health Nutrition Small Senior Dog Food", price: 5.99 },
+  //     { name: "Royal Canin Fresh Health Nutrition Medium Adult Dog Food", price: 6.99 },
+  //     { name: "Royal Canin Fresh Health Nutrition Medium Puppy Dog Food", price: 6.99 },
+  //     { name: "Royal Canin Fresh Health Nutrition Medium Senior Dog Food", price: 6.99 },
+  //     { name: "Royal Canin Fresh Health Nutrition Large Adult Dog Food", price: 7.99 },
+  //     { name: "Royal Canin Fresh Health Nutrition Large Puppy Dog Food", price: 7.99 },
+  //     { name: "Royal Canin Fresh Health Nutrition Large Senior Dog Food", price: 7.99 },
+  //     { name: "Royal Canin Fresh Health Nutrition Extra Small Adult Dog Food", price: 4.99 },
+  //     { name: "Royal Canin Fresh Health Nutrition Extra Small Puppy Dog Food", price: 4.99 },
+  //     { name: "Royal Canin Digestive Care Dry Dog Food 17 lb", price: 95.69 },
+  //     { name: "Royal Canin Dermacomfort Dry Dog Food 17 lb", price: 89.99 },
+  //     { name: "Royal Canin Medium Adult Dry Dog Food 30 lb", price: 109.89 },
+  //     { name: "Royal Canin Large Breed Adult Dry Dog Food 30 lb", price: 119.99 },
+  //     { name: "Royal Canin Labrador Retriever Adult Dry Dog Food 30 lb", price: 129.99 },
+  //     { name: "Royal Canin German Shepherd Adult Dry Dog Food 30 lb", price: 139.99 },
+  //     { name: "Royal Canin Pug Adult Dry Dog Food 10 lb", price: 61.99 },
+  //     { name: "Royal Canin Yorkshire Terrier Adult Dry Dog Food 10 lb", price: 80.99 },
+  //     { name: "Royal Canin Miniature Schnauzer Adult Dry Dog Food 10 lb", price: 79.99 },
+  //     { name: "Royal Canin Probiotics Digestive & Immune Health Powder (30 Count)", price: 9.99 }
+  //   ]
+  // },
 
   //     {
   //     store: "Eukanuba Pet Food",
@@ -283,8 +283,8 @@ const companies = [
       { address: "7147 Greenback Ln, Citrus Heights, CA 95621", state: "CA" }
     ],
     products: [
-      { name: "SamsClubMembership", price: 50 },
-      { name: "NewSamsClubPlusMmbership", price: 60 } 
+      // { name: "SamsClubMembership", price: 50 },
+      { name: "NewSamsClubPlusMmbership", price: 110 } 
     ]
   },
 
@@ -318,32 +318,42 @@ const companies = [
       { address: "7147 Greenback Ln, Citrus Heights, CA 95621", state: "CA" }
     ],
     products: [
-     { name: "Royal Canin Probiotics for Dogs Digestive & Immune Health Powder (7 count)", price: 9.99 },
-{ name: "Royal Canin Digestive Care Dog Wet Food Loaf 12x85g", price: 49.99 },
-{ name: "Royal Canin Dachshund Dog Wet Food 12x85g", price: 49.99 },
-{ name: "Royal Canin Pomeranian Dog Wet Food 12x85g", price: 50.99 },
-{ name: "Royal Canin Dermacomfort Dog Wet Food Loaf 12x85g", price: 49.99 },
-{ name: "Royal Canin Digest Sensitive Dog Wet Food in Gravy 12x85g", price: 49.99 },
-{ name: "Royal Canin Poodle Dog Wet Food 12x85g", price: 49.99 },
-{ name: "Royal Canin Sterilized Dog Wet Food Loaf 12x85g", price: 49.99 },
-{ name: "Royal Canin Urinary Dog Wet Food Loaf 12x85g", price: 49.99 },
-{ name: "Royal Canin Yorkshire Terrier Dog Wet Food 12x85g", price: 49.99 },
-{ name: "Royal Canin Breed Health Nutrition Adult Yorkshire Terrier Dry 10 lb", price: 80.99 },
-{ name: "Royal Canin Pug Adult Dry Dog Food, 10 lb", price: 61.99 },
-{ name: "Royal Canin Medium Breed Digestive Care Dry Dog Food, 17 lb", price: 95.69 },
-{ name: "Royal Canin Large Adult Dry Dog Food for Older Dogs, 30 lb", price: 109.89 },
-{ name: "Royal Canin Golden Retriever Puppy Dry Dog Food, 30 lb", price: 108.99 },
-{ name: "Royal Canin Breed Health Nutrition Adult German Shepherd Dry, 30 lb", price: 139.99 },
-{ name: "Royal Canin Breed Health Nutrition Adult Labrador Retriever Dry, 30 lb", price: 129.99 },
-{ name: "Royal Canin Breed Health Nutrition Miniature Schnauzer Adult Dry, 10 lb", price: 79.99 },
-{ name: "Cesar Home Delights Wet Dog Food Variety Pack (24×3.5 oz)", price: 24.94 },
-{ name: "Cesar Home Delights Wet Dog Food Variety Pack (12×3.5 oz)", price: 13.94 },
-{ name: "Cesar Classic Loaf In Sauce Wet Dog Food Variety Pack (24×3.5 oz)", price: 24.94 },
-{ name: "Cesar Filets In Gravy Variety Pack Wet Dog Food (24×3.5 oz)", price: 24.94 },
-{ name: "Cesar Classic Loaf In Sauce Wet Dog Food Variety Pack (12×3.5 oz)", price: 13.94 },
-{ name: "Cesar Loaf & Topper In Sauce Variety Pack Wet Dog Food (24×3.5 oz)", price: 24.94 },
-{ name: "Cesar Wholesome Bowls Broth Wet Dog Food Variety Pack (6×3 oz)", price: 16.96 }
-
+      { name: "Cesar Warm Bowls Chicken & Vegetable Medley Wet Dog Food", price: 2.49 },
+      { name: "Cesar Warm Bowls Beef Stew Wet Dog Food", price: 2.49 },
+      { name: "Cesar Warm Bowls Turkey & Sweet Potato Wet Dog Food", price: 2.49 },
+      { name: "Cesar Warm Bowls Chicken & Rice Wet Dog Food", price: 2.49 },
+      { name: "Cesar Wholesome Bowls Chicken, Brown Rice & Vegetables Wet Dog Food", price: 2.69 },
+      { name: "Cesar Wholesome Bowls Beef, Barley & Vegetables Wet Dog Food", price: 2.69 },
+      { name: "Cesar Wholesome Bowls Turkey & Sweet Potato Wet Dog Food", price: 2.69 },
+      { name: "Cesar Simply Crafted Chicken & Sweet Potato Wet Dog Food", price: 2.99 },
+      { name: "Cesar Simply Crafted Beef & Potato Wet Dog Food", price: 2.99 },
+      { name: "Cesar Simply Crafted Chicken, Carrots & Green Beans Wet Dog Food", price: 2.99 },
+      { name: "Cesar Wholesome Meals Grilled Chicken Wet Dog Food Tray", price: 1.49 },
+      { name: "Cesar Wholesome Meals Beef Recipe Wet Dog Food Tray", price: 1.49 },
+      { name: "Cesar Wholesome Meals Turkey Recipe Wet Dog Food Tray", price: 1.49 },
+      { name: "Cesar Wholesome Meals Porterhouse Steak Flavor Wet Dog Food Tray", price: 1.49 },
+      { name: "Cesar Wholesome Meals Filet Mignon Flavor Wet Dog Food Tray", price: 1.49 },
+      { name: "Cesar Classic Loaf in Sauce Grilled Chicken Flavor Wet Dog Food 3.5 oz (12 Count Multipack)", price: 13.94 },
+      { name: "Cesar Classic Loaf in Sauce Filet Mignon Flavor Wet Dog Food 3.5 oz (12 Count Multipack)", price: 13.94 },
+      { name: "Cesar Classic Loaf in Sauce Porterhouse Steak Flavor Wet Dog Food 3.5 oz (12 Count Multipack)", price: 13.94 },
+      { name: "Cesar Classic Loaf in Sauce Beef Recipe Wet Dog Food 3.5 oz (12 Count Multipack)", price: 13.94 },
+      { name: "Cesar Home Delights Grilled Chicken & Liver Wet Dog Food 3.5 oz (12 Count Multipack)", price: 13.94 },
+      { name: "Cesar Home Delights Beef Stew Wet Dog Food 3.5 oz (12 Count Multipack)", price: 13.94 },
+      { name: "Cesar Home Delights Turkey & Potatoes Wet Dog Food 3.5 oz (12 Count Multipack)", price: 13.94 },
+      { name: "Cesar Home Delights Chicken & Vegetables Wet Dog Food 3.5 oz (12 Count Multipack)", price: 13.94 },
+      { name: "Cesar Filets in Gravy Chicken Flavor Wet Dog Food 3.5 oz (12 Count Multipack)", price: 14.98 },
+      { name: "Cesar Filets in Gravy Beef Flavor Wet Dog Food 3.5 oz (12 Count Multipack)", price: 14.98 },
+      { name: "Cesar Filets in Gravy Steak Flavor Wet Dog Food 3.5 oz (12 Count Multipack)", price: 14.98 },
+      { name: "Cesar Simply Crafted Chicken & Sweet Potato Wet Dog Food 3.5 oz (12 Count Multipack)", price: 17.88 },
+      { name: "Cesar Simply Crafted Beef & Potato Wet Dog Food 3.5 oz (12 Count Multipack)", price: 17.88 },
+      { name: "Cesar Simply Crafted Chicken, Carrots & Green Beans Wet Dog Food 3.5 oz (12 Count Multipack)", price: 17.88 },
+      { name: "Cesar Home Delights Wet Dog Food Variety Pack (24×3.5 oz)", price: 24.94 },
+      { name: "Cesar Home Delights Wet Dog Food Variety Pack (12×3.5 oz)", price: 13.94 },
+      { name: "Cesar Classic Loaf In Sauce Wet Dog Food Variety Pack (24×3.5 oz)", price: 24.94 },
+      { name: "Cesar Filets In Gravy Variety Pack Wet Dog Food (24×3.5 oz)", price: 24.94 },
+      { name: "Cesar Classic Loaf In Sauce Wet Dog Food Variety Pack (12×3.5 oz)", price: 13.94 },
+      { name: "Cesar Loaf & Topper In Sauce Variety Pack Wet Dog Food (24×3.5 oz)", price: 24.94 },
+      { name: "Cesar Wholesome Bowls Broth Wet Dog Food Variety Pack (6×3 oz)", price: 16.96 }
     ]
   },
 
