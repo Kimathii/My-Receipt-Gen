@@ -164,6 +164,46 @@ const companies = [
   //   ]
   // },
 
+  {
+  store: "Chewy",
+  name: "Chewy",
+  slogan: "Where Pet Lovers Shop.",
+  phone: "(800) 672-4399",
+  locations: [
+    { address: "Chewy Corporate Headquarters, 7700 W Sunrise Blvd, Plantation, FL 33322", state: "FL" },
+    { address: "Chewy Fulfillment Center, 50 NE 40th St, Ocala, FL 34479", state: "FL" },
+    { address: "Chewy Fulfillment Center, 4001 E 3rd St, Dayton, OH 45403", state: "OH" },
+    { address: "Chewy Fulfillment Center, 7700 Chewy Blvd, Dallas, TX 75241", state: "TX" },
+    { address: "Chewy Fulfillment Center, 1150 W 2400 S, Salt Lake City, UT 84119", state: "UT" },
+    { address: "Chewy Fulfillment Center, 7701 Chewy Way, Belton, MO 64012", state: "MO" },
+    { address: "Chewy Fulfillment Center, 4010 Premier Pkwy, McDonough, GA 30253", state: "GA" },
+    { address: "Chewy Fulfillment Center, 4010 Amazon Pkwy, Carlisle, PA 17013", state: "PA" }
+  ],
+  products: [
+    { name: "Royal Canin Fresh Health Nutrition Small Adult Dog Food", price: 5.99 },
+    { name: "Royal Canin Fresh Health Nutrition Small Puppy Dog Food", price: 5.99 },
+    { name: "Royal Canin Fresh Health Nutrition Small Senior Dog Food", price: 5.99 },
+    { name: "Royal Canin Fresh Health Nutrition Medium Adult Dog Food", price: 6.99 },
+    { name: "Royal Canin Fresh Health Nutrition Medium Puppy Dog Food", price: 6.99 },
+    { name: "Royal Canin Fresh Health Nutrition Medium Senior Dog Food", price: 6.99 },
+    { name: "Royal Canin Fresh Health Nutrition Large Adult Dog Food", price: 7.99 },
+    { name: "Royal Canin Fresh Health Nutrition Large Puppy Dog Food", price: 7.99 },
+    { name: "Royal Canin Fresh Health Nutrition Large Senior Dog Food", price: 7.99 },
+    { name: "Royal Canin Fresh Health Nutrition Extra Small Adult Dog Food", price: 4.99 },
+    { name: "Royal Canin Fresh Health Nutrition Extra Small Puppy Dog Food", price: 4.99 },
+    { name: "Royal Canin Digestive Care Dry Dog Food 17 lb", price: 95.69 },
+    { name: "Royal Canin Dermacomfort Dry Dog Food 17 lb", price: 89.99 },
+    { name: "Royal Canin Medium Adult Dry Dog Food 30 lb", price: 109.89 },
+    { name: "Royal Canin Large Breed Adult Dry Dog Food 30 lb", price: 119.99 },
+    { name: "Royal Canin Labrador Retriever Adult Dry Dog Food 30 lb", price: 129.99 },
+    { name: "Royal Canin German Shepherd Adult Dry Dog Food 30 lb", price: 139.99 },
+    { name: "Royal Canin Pug Adult Dry Dog Food 10 lb", price: 61.99 },
+    { name: "Royal Canin Yorkshire Terrier Adult Dry Dog Food 10 lb", price: 80.99 },
+    { name: "Royal Canin Miniature Schnauzer Adult Dry Dog Food 10 lb", price: 79.99 },
+    { name: "Royal Canin Probiotics Digestive & Immune Health Powder (7 count)", price: 9.99 }
+  ]
+},
+
   //     {
   //     store: "Eukanuba Pet Food",
   //     name: "Tractor Supply Co",
@@ -226,6 +266,7 @@ const companies = [
   //   { name: "Pure Encapsulations Liposomal Glutathione", price: 59.99 }
   // ]
   //   },
+
 
   {
     store: "Coffee & Beverages",

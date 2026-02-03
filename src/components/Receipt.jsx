@@ -25,6 +25,7 @@ const Receipt = () => {
     "KFC": "/logos/kfc.png",
     "McDonald's": "/logos/mcdonalds.png",
     "Walmart": "/logos/walmart.png",
+    "Chewy": "/logos/chewy.png",
   };
 
   return (
