@@ -48,7 +48,23 @@ const formatDate = () => {
 
 
 // ---------------- GENERATE ITEMS ----------------
-const generateItems = (products) => {
+const generateItems = (products, companyName) => {
+  // Special case for Sam's Club: always show both products, one of each
+  if (companyName === "Sam's Club") {
+    return products.map((product) => {
+      const itemNumber = getRandomInt(10000000, 99999999);
+      const price = product.price; // Use exact price for memberships
+      return {
+        itemNumber,
+        name: product.name,
+        quantity: 1,
+        price,
+        total: price
+      };
+    });
+  }
+
+  // Default behavior for other companies
   const itemCount = 3;
   const items = [];
 
@@ -78,7 +94,7 @@ const generateReceipt = () => {
   const store = brand.store || getRandomItem(brand.stores || []);
   const location = getRandomItem(brand.locations || []);
 
-  const items = generateItems(brand.products || []);
+  const items = generateItems(brand.products || [], brand.name);
 
   const subtotal = +items.reduce((sum, item) => sum + item.total, 0).toFixed(2);
 

@@ -68,22 +68,6 @@ const companies = [
     { name: "Eukanuba Adult Small Bites Dry Dog Food", price: 40.99 },
     { name: "Eukanuba Adult Dry Dog Food for Medium Dogs", price: 42.99 }
       ]
-
-  // //     { name: "Royal Canin Size Health Nutrition Mini Adult Dry Dog Food (8.8 lb)", price: 52.99 },
-  // // { name: "Royal Canin Size Health Nutrition Medium Adult Dry Dog Food (15 lb)", price: 74.99 },
-  // // { name: "Royal Canin Size Health Nutrition Maxi Adult Dry Dog Food (30 lb)", price: 119.99 },
-  // // { name: "Royal Canin Breed Health Nutrition German Shepherd Adult Dry Dog Food (30 lb)", price: 134.99 },
-  // //  { name: "Royal Canin Breed Health Nutrition Labrador Retriever Adult Dry Dog Food (30 lb)", price: 129.99 }
-  // // { name: "Royal Canin Breed Health Nutrition French Bulldog Adult Dry Dog Food (12 lb)", price: 89.99 },
-  // // { name: "Royal Canin Breed Health Nutrition Chihuahua Adult Dry Dog Food (6 lb)", price: 49.99 },
-  // // { name: "Royal Canin Veterinary Diet Gastrointestinal Low Fat Dry Dog Food (24 lb)", price: 101.99 },
-  // // { name: "Royal Canin Veterinary Diet Hydrolyzed Protein Adult HP Dry Dog Food (24 lb)", price: 107.99 },
-  // // { name: "Royal Canin Veterinary Diet Renal Support Dry Dog Food (24 lb)", price: 104.99 },
-  // // { name: "Royal Canin Calm Adult Dry Dog Food (24 lb)", price: 99.99 },
-  // // { name: "Royal Canin Adult Sensitive Stomach Dry Dog Food (24 lb)", price: 97.99 },
-  // // { name: "Royal Canin Puppy Large Breed Dry Dog Food (30 lb)", price: 103.99 },
-  // // { name: "Royal Canin Puppy Medium Breed Dry Dog Food (22 lb)", price: 92.99 },
-  // // { name: "Royal Canin Puppy Small Breed Dry Dog Food (8.8 lb)", price: 54.99 },
     },
 
 
@@ -113,6 +97,21 @@ const companies = [
   //     { name: "Boost High Protein", price: 19.97 },
   //     { name: "Filtrete MPR Refillable Air Filter Starter Kit", price: 89.99 }
   //   ]
+    // //     { name: "Royal Canin Size Health Nutrition Mini Adult Dry Dog Food (8.8 lb)", price: 52.99 },
+  // // { name: "Royal Canin Size Health Nutrition Medium Adult Dry Dog Food (15 lb)", price: 74.99 },
+  // // { name: "Royal Canin Size Health Nutrition Maxi Adult Dry Dog Food (30 lb)", price: 119.99 },
+  // // { name: "Royal Canin Breed Health Nutrition German Shepherd Adult Dry Dog Food (30 lb)", price: 134.99 },
+  // //  { name: "Royal Canin Breed Health Nutrition Labrador Retriever Adult Dry Dog Food (30 lb)", price: 129.99 }
+  // // { name: "Royal Canin Breed Health Nutrition French Bulldog Adult Dry Dog Food (12 lb)", price: 89.99 },
+  // // { name: "Royal Canin Breed Health Nutrition Chihuahua Adult Dry Dog Food (6 lb)", price: 49.99 },
+  // // { name: "Royal Canin Veterinary Diet Gastrointestinal Low Fat Dry Dog Food (24 lb)", price: 101.99 },
+  // // { name: "Royal Canin Veterinary Diet Hydrolyzed Protein Adult HP Dry Dog Food (24 lb)", price: 107.99 },
+  // // { name: "Royal Canin Veterinary Diet Renal Support Dry Dog Food (24 lb)", price: 104.99 },
+  // // { name: "Royal Canin Calm Adult Dry Dog Food (24 lb)", price: 99.99 },
+  // // { name: "Royal Canin Adult Sensitive Stomach Dry Dog Food (24 lb)", price: 97.99 },
+  // // { name: "Royal Canin Puppy Large Breed Dry Dog Food (30 lb)", price: 103.99 },
+  // // { name: "Royal Canin Puppy Medium Breed Dry Dog Food (22 lb)", price: 92.99 },
+  // // { name: "Royal Canin Puppy Small Breed Dry Dog Food (8.8 lb)", price: 54.99 },
   // },
 
 
@@ -228,33 +227,25 @@ const companies = [
   // ]
   //   },
 
-  // {
-  //   store: "Coffee & Beverages",
-  //   name: "Sam's Club",
-  //   slogan: "Great brands. Members. Savings.",
-  //   phone: "(888) 746-7726",
-  //   locations: [
-  //     { address: "1225 Concord Ave, Concord, CA 94520", state: "CA" },
-  //     { address: "8250 Power Inn Rd, Sacramento, CA 95828", state: "CA" },
-  //     { address: "6336 College Grove Way, San Diego, CA 92115", state: "CA" },
-  //          { address: "150 E 42nd St, New York, NY 10017", state: "NY" },
-  //       { address: "250 Summer St, Boston, MA 02210", state: "MA" },
-  //       { address: "600 N Michigan Ave, Chicago, IL 60611", state: "IL" },
-  //     { address: "7147 Greenback Ln, Citrus Heights, CA 95621", state: "CA" }
-  //   ],
-  //   products: [
-  //     // { name: "Victor Allen’s Signature Medium-Dark Roast Coffee Pods Variety Pack, 60 ct", price: 14.98 },
-  //     // { name: "Victor Allen’s Premium Coffee Pods Colombia Blend, 15 Pods", price: 4.99 },
-  //     // { name: "Victor Allen’s Premium Coffee Pods Espresso Roast, 15 Pods", price: 4.99 },
-  //     { name: "Twinings English Breakfast Tea (100-count box)", price: 15.99 },
-  //     // { name: "Victor Allen’s Premium Coffee Pods Brazil Blend, 15 Pods", price: 4.99 },
-  //     // { name: "Victor Allen’s Flavored Coffee Pods Variety Pack (French Vanilla/Caramel Macchiato/Hazelnut), 60 ct", price: 12.99 },
-  //     { name: "Victor Allen’s Signature Coffee Pods Variety Pack (Morning Blend/French Roast/Donut Shop), 60 ct", price: 17.99 },
-  //     // { name: "Victor Allen’s Signature Dark Roast Coffee Pods, 12 ct", price: 6.99 },
-  //     // { name: "Victor Allen’s Signature Medium Roast Coffee Pods, 12 ct", price: 6.49 },
-  //     { name: "Victor Allen’s Signature Light Roast Coffee Pods, 12 ct", price: 7.49 }
-  //   ]
-  // },
+  {
+    store: "Coffee & Beverages",
+    name: "Sam's Club",
+    slogan: "Great brands. Members. Savings.",
+    phone: "(888) 746-7726",
+    locations: [
+      { address: "1225 Concord Ave, Concord, CA 94520", state: "CA" },
+      { address: "8250 Power Inn Rd, Sacramento, CA 95828", state: "CA" },
+      { address: "6336 College Grove Way, San Diego, CA 92115", state: "CA" },
+           { address: "150 E 42nd St, New York, NY 10017", state: "NY" },
+        { address: "250 Summer St, Boston, MA 02210", state: "MA" },
+        { address: "600 N Michigan Ave, Chicago, IL 60611", state: "IL" },
+      { address: "7147 Greenback Ln, Citrus Heights, CA 95621", state: "CA" }
+    ],
+    products: [
+      { name: "SamsClubMembership", price: 50 },
+      { name: "NewSamsClubPlusMmbership", price: 60 } 
+    ]
+  },
 
   {
     store: "Dog Food",
@@ -286,21 +277,32 @@ const companies = [
       { address: "7147 Greenback Ln, Citrus Heights, CA 95621", state: "CA" }
     ],
     products: [
-      { name: "Blue Buffalo Life Protection Formula Adult Chicken & Brown Rice Dry Dog Food (30 lb)", price: 59.99 },
-      { name: "Blue Buffalo Life Protection Formula Adult Lamb & Brown Rice Dry Dog Food (30 lb)", price: 62.99 },
-      { name: "Blue Buffalo Life Protection Formula Puppy Chicken & Brown Rice Dry Dog Food (30 lb)", price: 64.99 },
-      { name: "Blue Buffalo Life Protection Formula Senior Chicken & Brown Rice Dry Dog Food (30 lb)", price: 61.99 },
-      { name: "Blue Buffalo Wilderness High-Protein Chicken Dry Dog Food (24 lb)", price: 67.99 },
-      { name: "Blue Buffalo Wilderness High-Protein Salmon Dry Dog Food (24 lb)", price: 69.99 },
-      { name: "Blue Buffalo Wilderness High-Protein Duck Dry Dog Food (24 lb)", price: 71.99 },
-      { name: "Blue Buffalo Basics Limited Ingredient Diet Turkey & Potato Dry Dog Food (24 lb)", price: 63.99 },
-      { name: "Blue Buffalo Basics Limited Ingredient Diet Salmon & Potato Dry Dog Food (24 lb)", price: 65.99 },
-      { name: "Blue Buffalo Freedom Grain-Free Chicken Dry Dog Food (24 lb)", price: 66.99 },
-      { name: "Blue Buffalo Freedom Grain-Free Beef Dry Dog Food (24 lb)", price: 68.99 },
-      { name: "Blue Buffalo Large Breed Adult Chicken & Brown Rice Dry Dog Food (30 lb)", price: 58.99 },
-      { name: "Blue Buffalo Small Breed Adult Chicken & Brown Rice Dry Dog Food (15 lb)", price: 42.99 },
-      { name: "Blue Buffalo Weight Management Chicken & Brown Rice Dry Dog Food (30 lb)", price: 57.99 },
-      { name: "Blue Buffalo Sensitive Stomach Chicken Dry Dog Food (24 lb)", price: 60.99 }
+     { name: "Royal Canin Probiotics for Dogs Digestive & Immune Health Powder (7 count)", price: 9.99 },
+{ name: "Royal Canin Digestive Care Dog Wet Food Loaf 12x85g", price: 49.99 },
+{ name: "Royal Canin Dachshund Dog Wet Food 12x85g", price: 49.99 },
+{ name: "Royal Canin Pomeranian Dog Wet Food 12x85g", price: 50.99 },
+{ name: "Royal Canin Dermacomfort Dog Wet Food Loaf 12x85g", price: 49.99 },
+{ name: "Royal Canin Digest Sensitive Dog Wet Food in Gravy 12x85g", price: 49.99 },
+{ name: "Royal Canin Poodle Dog Wet Food 12x85g", price: 49.99 },
+{ name: "Royal Canin Sterilized Dog Wet Food Loaf 12x85g", price: 49.99 },
+{ name: "Royal Canin Urinary Dog Wet Food Loaf 12x85g", price: 49.99 },
+{ name: "Royal Canin Yorkshire Terrier Dog Wet Food 12x85g", price: 49.99 },
+{ name: "Royal Canin Breed Health Nutrition Adult Yorkshire Terrier Dry 10 lb", price: 80.99 },
+{ name: "Royal Canin Pug Adult Dry Dog Food, 10 lb", price: 61.99 },
+{ name: "Royal Canin Medium Breed Digestive Care Dry Dog Food, 17 lb", price: 95.69 },
+{ name: "Royal Canin Large Adult Dry Dog Food for Older Dogs, 30 lb", price: 109.89 },
+{ name: "Royal Canin Golden Retriever Puppy Dry Dog Food, 30 lb", price: 108.99 },
+{ name: "Royal Canin Breed Health Nutrition Adult German Shepherd Dry, 30 lb", price: 139.99 },
+{ name: "Royal Canin Breed Health Nutrition Adult Labrador Retriever Dry, 30 lb", price: 129.99 },
+{ name: "Royal Canin Breed Health Nutrition Miniature Schnauzer Adult Dry, 10 lb", price: 79.99 },
+{ name: "Cesar Home Delights Wet Dog Food Variety Pack (24×3.5 oz)", price: 24.94 },
+{ name: "Cesar Home Delights Wet Dog Food Variety Pack (12×3.5 oz)", price: 13.94 },
+{ name: "Cesar Classic Loaf In Sauce Wet Dog Food Variety Pack (24×3.5 oz)", price: 24.94 },
+{ name: "Cesar Filets In Gravy Variety Pack Wet Dog Food (24×3.5 oz)", price: 24.94 },
+{ name: "Cesar Classic Loaf In Sauce Wet Dog Food Variety Pack (12×3.5 oz)", price: 13.94 },
+{ name: "Cesar Loaf & Topper In Sauce Variety Pack Wet Dog Food (24×3.5 oz)", price: 24.94 },
+{ name: "Cesar Wholesome Bowls Broth Wet Dog Food Variety Pack (6×3 oz)", price: 16.96 }
+
     ]
   },
 
