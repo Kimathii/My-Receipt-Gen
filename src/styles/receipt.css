@@ -95,8 +95,18 @@ body {
 .receipt li {
   display: flex;
   justify-content: space-between;
+  align-items: flex-start;
   font-size: 0.9rem;
   margin-bottom: 2px;
+}
+
+.receipt li span:first-child {
+  flex: 1;
+  padding-right: 8px;
+}
+
+.receipt li span:last-child {
+  white-space: nowrap;
 }
 
 /* TOTALS */
