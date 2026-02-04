@@ -301,7 +301,7 @@ const companies = [
     ],
     products: [
       // { name: "SamsClubMembership", price: 50 },
-      { name: "NewSamsClubPlusMmbership", price: 110 }
+      { name: "NewSamsClubPlusMembership", price: 110 }
     ]
   },
 
