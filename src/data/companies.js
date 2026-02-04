@@ -308,7 +308,7 @@ const companies = [
   {
     store: "Dog Food",
     name: "Petco",
-    slogan: "",
+    slogan: "Where Pet Lovers Shop.",
     phone: "(877) 738-6742",
     locations: [
       { address: "860 Broadway, New York, NY 10003", state: "NY" },
