@@ -34,6 +34,11 @@ body {
   white-space: nowrap;
 }
 
+.receipt.sams-club {
+  width: 320px;
+  max-width: 95vw;
+}
+
 /* LOGO */
 .receipt .logo-container {
   text-align: center;
