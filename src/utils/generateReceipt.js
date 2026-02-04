@@ -63,42 +63,22 @@ const generateItems = (products, companyName) => {
     });
   }
 
-  // Special case for Petco: 1 bowl product + 2 different 3.5 oz (12 Count) products
+  // Special case for Petco
   if (companyName === "Petco") {
     const items = [];
 
-    // Filter bowl products (Bowls or Meals, but not the Multipack or Variety Pack products)
-    const bowlProducts = products.filter(p =>
-      (p.name.includes("Bowls") || p.name.includes("Meals")) &&
-      !p.name.includes("Multipack") &&
-      !p.name.includes("Variety Pack")
-    );
+    // Check if this is Royal Canin Petco or Cesar Petco
+    const isRoyalCanin = products.some(p => p.name.includes("Royal Canin"));
 
-    // Filter 3.5 oz (12 Count Multipack) products
-    const twelveCountProducts = products.filter(p =>
-      p.name.includes("3.5 oz (12 Count Multipack)")
-    );
+    if (isRoyalCanin) {
+      // Royal Canin Petco: 1 probiotic + 1 pouch + 1 dry food
+      const probioticProducts = products.filter(p => p.name.includes("Probiotics"));
+      const pouchProducts = products.filter(p => p.name.includes("Pouch"));
+      const dryProducts = products.filter(p => p.name.includes("Dry Dog Food"));
 
-    // Pick 1 random bowl product
-    if (bowlProducts.length > 0) {
-      const bowl = getRandomItem(bowlProducts);
-      const quantity = getRandomInt(2, 3);
-      const price = priceWithVariance(bowl.price);
-      items.push({
-        itemNumber: getRandomInt(10000000, 99999999),
-        name: bowl.name,
-        quantity,
-        price,
-        total: +(price * quantity).toFixed(2)
-      });
-    }
-
-    // Pick 2 different random 12-count products
-    if (twelveCountProducts.length >= 2) {
-      const shuffled = [...twelveCountProducts].sort(() => Math.random() - 0.5);
-      const selected = shuffled.slice(0, 2);
-
-      for (const product of selected) {
+      // Pick 1 random probiotic
+      if (probioticProducts.length > 0) {
+        const product = getRandomItem(probioticProducts);
         const quantity = getRandomInt(2, 3);
         const price = priceWithVariance(product.price);
         items.push({
@@ -108,6 +88,77 @@ const generateItems = (products, companyName) => {
           price,
           total: +(price * quantity).toFixed(2)
         });
+      }
+
+      // Pick 1 random pouch
+      if (pouchProducts.length > 0) {
+        const product = getRandomItem(pouchProducts);
+        const quantity = getRandomInt(2, 3);
+        const price = priceWithVariance(product.price);
+        items.push({
+          itemNumber: getRandomInt(10000000, 99999999),
+          name: product.name,
+          quantity,
+          price,
+          total: +(price * quantity).toFixed(2)
+        });
+      }
+
+      // Pick 1 random dry food
+      if (dryProducts.length > 0) {
+        const product = getRandomItem(dryProducts);
+        const quantity = getRandomInt(2, 3);
+        const price = priceWithVariance(product.price);
+        items.push({
+          itemNumber: getRandomInt(10000000, 99999999),
+          name: product.name,
+          quantity,
+          price,
+          total: +(price * quantity).toFixed(2)
+        });
+      }
+    } else {
+      // Cesar Petco: 1 bowl product + 2 different 3.5 oz (12 Count Multipack) products
+      const bowlProducts = products.filter(p =>
+        (p.name.includes("Bowls") || p.name.includes("Meals")) &&
+        !p.name.includes("Multipack") &&
+        !p.name.includes("Variety Pack")
+      );
+
+      const twelveCountProducts = products.filter(p =>
+        p.name.includes("3.5 oz (12 Count Multipack)")
+      );
+
+      // Pick 1 random bowl product
+      if (bowlProducts.length > 0) {
+        const bowl = getRandomItem(bowlProducts);
+        const quantity = getRandomInt(2, 3);
+        const price = priceWithVariance(bowl.price);
+        items.push({
+          itemNumber: getRandomInt(10000000, 99999999),
+          name: bowl.name,
+          quantity,
+          price,
+          total: +(price * quantity).toFixed(2)
+        });
+      }
+
+      // Pick 2 different random 12-count products
+      if (twelveCountProducts.length >= 2) {
+        const shuffled = [...twelveCountProducts].sort(() => Math.random() - 0.5);
+        const selected = shuffled.slice(0, 2);
+
+        for (const product of selected) {
+          const quantity = getRandomInt(2, 3);
+          const price = priceWithVariance(product.price);
+          items.push({
+            itemNumber: getRandomInt(10000000, 99999999),
+            name: product.name,
+            quantity,
+            price,
+            total: +(price * quantity).toFixed(2)
+          });
+        }
       }
     }
 

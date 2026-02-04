@@ -164,45 +164,62 @@ const companies = [
   //   ]
   // },
 
-  //   {
-  //   store: "Chewy",
-  //   name: "Chewy",
-  //   slogan: "Where Pet Lovers Shop.",
-  //   phone: "(800) 672-4399",
-  //   locations: [
-  //     { address: "Chewy Corporate Headquarters, 7700 W Sunrise Blvd, Plantation, FL 33322", state: "FL" },
-  //     { address: "Chewy Fulfillment Center, 50 NE 40th St, Ocala, FL 34479", state: "FL" },
-  //     { address: "Chewy Fulfillment Center, 4001 E 3rd St, Dayton, OH 45403", state: "OH" },
-  //     { address: "Chewy Fulfillment Center, 7700 Chewy Blvd, Dallas, TX 75241", state: "TX" },
-  //     { address: "Chewy Fulfillment Center, 1150 W 2400 S, Salt Lake City, UT 84119", state: "UT" },
-  //     { address: "Chewy Fulfillment Center, 7701 Chewy Way, Belton, MO 64012", state: "MO" },
-  //     { address: "Chewy Fulfillment Center, 4010 Premier Pkwy, McDonough, GA 30253", state: "GA" },
-  //     { address: "Chewy Fulfillment Center, 4010 Amazon Pkwy, Carlisle, PA 17013", state: "PA" }
-  //   ],
-  //   products: [
-  //     { name: "Royal Canin Fresh Health Nutrition Small Adult Dog Food", price: 5.99 },
-  //     { name: "Royal Canin Fresh Health Nutrition Small Puppy Dog Food", price: 5.99 },
-  //     { name: "Royal Canin Fresh Health Nutrition Small Senior Dog Food", price: 5.99 },
-  //     { name: "Royal Canin Fresh Health Nutrition Medium Adult Dog Food", price: 6.99 },
-  //     { name: "Royal Canin Fresh Health Nutrition Medium Puppy Dog Food", price: 6.99 },
-  //     { name: "Royal Canin Fresh Health Nutrition Medium Senior Dog Food", price: 6.99 },
-  //     { name: "Royal Canin Fresh Health Nutrition Large Adult Dog Food", price: 7.99 },
-  //     { name: "Royal Canin Fresh Health Nutrition Large Puppy Dog Food", price: 7.99 },
-  //     { name: "Royal Canin Fresh Health Nutrition Large Senior Dog Food", price: 7.99 },
-  //     { name: "Royal Canin Fresh Health Nutrition Extra Small Adult Dog Food", price: 4.99 },
-  //     { name: "Royal Canin Fresh Health Nutrition Extra Small Puppy Dog Food", price: 4.99 },
-  //     { name: "Royal Canin Digestive Care Dry Dog Food 17 lb", price: 95.69 },
-  //     { name: "Royal Canin Dermacomfort Dry Dog Food 17 lb", price: 89.99 },
-  //     { name: "Royal Canin Medium Adult Dry Dog Food 30 lb", price: 109.89 },
-  //     { name: "Royal Canin Large Breed Adult Dry Dog Food 30 lb", price: 119.99 },
-  //     { name: "Royal Canin Labrador Retriever Adult Dry Dog Food 30 lb", price: 129.99 },
-  //     { name: "Royal Canin German Shepherd Adult Dry Dog Food 30 lb", price: 139.99 },
-  //     { name: "Royal Canin Pug Adult Dry Dog Food 10 lb", price: 61.99 },
-  //     { name: "Royal Canin Yorkshire Terrier Adult Dry Dog Food 10 lb", price: 80.99 },
-  //     { name: "Royal Canin Miniature Schnauzer Adult Dry Dog Food 10 lb", price: 79.99 },
-  //     { name: "Royal Canin Probiotics Digestive & Immune Health Powder (30 Count)", price: 9.99 }
-  //   ]
-  // },
+  {
+    store: "Petco",
+    name: "Petco",
+    slogan: "Where Pet Lovers Shop.",
+    phone: "(800) 672-4399",
+    locations: [
+      { address: "450 S Orange Ave, Orlando, FL 32801", state: "FL" },
+      { address: "800 N Magnolia Ave, Orlando, FL 32803", state: "FL" },
+      { address: "25-01 Jackson Ave, Long Island City, NY 11101", state: "NY" },
+      { address: "139 Flatbush Ave, Brooklyn, NY 11217", state: "NY" },
+      { address: "88-01 Queens Blvd, Elmhurst, NY 11373", state: "NY" },
+      { address: "255 Greenwich St, New York, NY 10007", state: "NY" },
+      { address: "445 Albee Square W, Brooklyn, NY 11201", state: "NY" },
+      { address: "40-25 82nd St, Elmhurst, NY 11105", state: "NY" },
+      { address: "700 Exterior St, Bronx, NY 10451", state: "NY" },
+      { address: "600 Broadway, New York, NY 10012", state: "NY" },
+      { address: "112 W 34th St, New York, NY 10120", state: "NY" },
+      { address: "400 Grand St, New York, NY 10002", state: "NY" },
+      { address: "150 E 86th St, New York, NY 10028", state: "NY" },
+      { address: "500 E 14th St, New York, NY 10009", state: "NY" },
+      { address: "1201 3rd Ave, New York, NY 10021", state: "NY" },
+      { address: "795 Columbus Ave, New York, NY 10025", state: "NY" },
+      { address: "237 W 42nd St, New York, NY 10036", state: "NY" },
+      { address: "512 2nd Ave, New York, NY 10016", state: "NY" },
+      { address: "815 Hutchinson River Pkwy, Bronx, NY 10465", state: "NY" },
+      { address: "40 W 225th St #50, Bronx, NY 10463", state: "NY" },
+      { address: "22-11 31st St, Astoria, NY 11105", state: "NY" },
+      { address: "10 Union Sq E, New York, NY 10003", state: "NY" },
+      { address: "215 E Fordham Rd, Bronx, NY 10458", state: "NY" },
+      { address: "838 Sunrise Hwy, Bay Shore, NY 11706", state: "NY" },
+      { address: "1575 Niagara Falls Blvd, Amherst, NY 14228", state: "NY" },
+      { address: "100 Amsterdam Commons, Amsterdam, NY 12010", state: "NY" },
+      { address: "4300 Veterans Memorial Dr, Batavia, NY 14020", state: "NY" },
+      { address: "495 Boston Post Rd, Port Chester, NY 10573", state: "NY" },
+      { address: "1520 Forest Ave, Staten Island, NY 10302", state: "NY" },
+      { address: "307 Independence Plz, Selden, NY 11784", state: "NY" },
+      { address: "345 Rockaway Tpke, Lawrence, NY 11559", state: "NY" },
+      { address: "160-08 Jamaica Ave, Jamaica, NY 11432", state: "NY" },
+      { address: "9100 International Dr, Orlando, FL 32819", state: "FL" }
+    ],
+    products: [
+      { name: "Royal Canin Probiotics, 30 ct", price: 49.99 },
+
+      { name: "Royal Canin Puppy Immunity & Digestion Chews Pouch, 5.2 oz", price: 17.99 },
+      { name: "Royal Canin Adult Digestive Support Chews Pouch, 8.5 oz", price: 18.99 },
+      { name: "Royal Canin Adult Skin & Coat Chews Pouch, 8.5 oz", price: 18.99 },
+      { name: "Royal Canin Adult Joint Support Chews Pouch, 8.5 oz", price: 18.99 },
+
+      { name: "Royal Canin Large Breed Adult Dry Dog Food 30 lb", price: 119.99 },
+      { name: "Royal Canin Medium Breed Adult Dry Dog Food 30 lb", price: 117.99 },
+      { name: "Royal Canin Small Breed Adult Dry Dog Food 30 lb", price: 115.99 },
+      { name: "Royal Canin Labrador Retriever Adult Dry Dog Food 30 lb", price: 129.99 },
+      { name: "Royal Canin German Shepherd Adult Dry Dog Food 30 lb", price: 139.99 },
+      { name: "Royal Canin Pug Adult Dry Dog Food 10 lb", price: 61.99 },
+    ]
+  },
 
   //     {
   //     store: "Eukanuba Pet Food",
@@ -277,14 +294,14 @@ const companies = [
       { address: "1225 Concord Ave, Concord, CA 94520", state: "CA" },
       { address: "8250 Power Inn Rd, Sacramento, CA 95828", state: "CA" },
       { address: "6336 College Grove Way, San Diego, CA 92115", state: "CA" },
-           { address: "150 E 42nd St, New York, NY 10017", state: "NY" },
-        { address: "250 Summer St, Boston, MA 02210", state: "MA" },
-        { address: "600 N Michigan Ave, Chicago, IL 60611", state: "IL" },
+      { address: "150 E 42nd St, New York, NY 10017", state: "NY" },
+      { address: "250 Summer St, Boston, MA 02210", state: "MA" },
+      { address: "600 N Michigan Ave, Chicago, IL 60611", state: "IL" },
       { address: "7147 Greenback Ln, Citrus Heights, CA 95621", state: "CA" }
     ],
     products: [
       // { name: "SamsClubMembership", price: 50 },
-      { name: "NewSamsClubPlusMmbership", price: 110 } 
+      { name: "NewSamsClubPlusMmbership", price: 110 }
     ]
   },
 
