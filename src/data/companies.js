@@ -74,7 +74,7 @@ const companies = [
   {
     store: "Walmart",
     name: "Walmart",
-    slogan: "Walmart.com",
+    slogan: "",
     phone: "(800) 925-6278",
     locations: [
       { address: "111 Yale St, Houston, TX 77007", state: "TX", zip: "77007" },
