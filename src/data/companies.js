@@ -113,10 +113,10 @@ const companies = [
       { address: "1131 N Beale Rd, Marysville, CA 95901", state: "CA", zip: "95901" }
     ],
     products: [
-      { name: "Oars + Alps Face Moisturizer + Eye Cream", price: 27.99 },
-      { name: "Oars + Alps Aluminium Free Deodorant", price: 27.99 },
-      { name: "Oars + Alps Hydrating Antioxidant Sunscreen Spra with Vitamin C", price: 27.99 },
-      { name: "Oars + Alps Body + Face Wash (Freah Ocean Splash)", price: 27.99 },
+      { name: "Oars + Alps Face Moisturizer + Eye Cream", price: 22.99 },
+      { name: "Oars + Alps Aluminium Free Deodorant", price: 21.99 },
+      { name: "Oars + Alps Hydrating Antioxidant Sunscreen Spra with Vitamin C", price: 20.99 },
+      { name: "Oars + Alps Body + Face Wash (Freah Ocean Splash)", price: 20.99 },
 
 
     ]
