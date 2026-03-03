@@ -165,6 +165,30 @@ const generateItems = (products, companyName) => {
     return items;
   }
 
+  // Special case for Walmart: Rocco & Poxie or Oars + Alps
+  const isRocco = products.some(p => p.name.includes("Rocco"));
+  const isOars = products.some(p => p.name.includes("Oars"));
+  if (companyName === "Walmart" && (isRocco || isOars)) {
+    const shuffled = [...products].sort(() => Math.random() - 0.5);
+    const [first, second] = shuffled.slice(0, 2);
+
+    // Randomly assign quantities that sum to 3 (2+1 or 1+2)
+    const firstQty = Math.random() < 0.5 ? 2 : 1;
+    const secondQty = 3 - firstQty;
+
+    return [first, second].map((product, i) => {
+      const quantity = i === 0 ? firstQty : secondQty;
+      const price = priceWithVariance(product.price);
+      return {
+        itemNumber: getRandomInt(10000000, 99999999),
+        name: product.name,
+        quantity,
+        price,
+        total: +(price * quantity).toFixed(2)
+      };
+    });
+  }
+
   // Default behavior for other companies
   const itemCount = 3;
   const items = [];
