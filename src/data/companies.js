@@ -121,6 +121,31 @@ const companies = [
 
     ]
   },
+
+  {
+    store: "Walmart",
+    name: "Walmart",
+    slogan: "",
+    phone: "(800) 925-6278",
+    locations: [
+      { address: "111 Yale St, Houston, TX 77007", state: "TX", zip: "77007" },
+      { address: "2391 S Wayside Dr, Houston, TX 77023", state: "TX", zip: "77023" },
+      { address: "1980 Freedom Pkwy, Washington, IL 61571", state: "IL", zip: "61571" },
+      { address: "4252 Highway 54, Osage Beach, MO 65065", state: "MO", zip: "65065" },
+      { address: "100 N Main St, Manville, NJ 08835", state: "NJ", zip: "08835" },
+      { address: "2827 S Buckner Blvd, Dallas, TX 75227", state: "TX", zip: "75227" },
+      { address: "6001 Mahoning Ave, Austintown, OH 44515", state: "OH", zip: "44515" },
+      { address: "1131 N Beale Rd, Marysville, CA 95901", state: "CA", zip: "95901" }
+    ],
+    products: [
+      { name: "Basil Hayden Bourbon", price: 38.99 },
+      { name: "Basil Hayden Dark Rye", price: 39.99 },
+      { name: "Basil Hayden Malted Rye", price: 38.99 },
+      { name: "Basil Hayden Kentucky Straight Bourbon Whiskey", price: 38.99 },
+      { name: "Basil Hayden Toast", price: 54.99 },
+
+    ]
+  },
   // {
   //   store: "Electronics & Accessories",
   //   name: "Target",
@@ -168,6 +193,9 @@ const companies = [
   //     { name: "SteelSeries Nova 7X Wireless Headset with Booster Pack", price: 180.99 }
   //   ]
   // },
+
+
+
 
   // {
   //   store: "Petco",

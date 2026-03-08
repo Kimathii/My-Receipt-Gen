@@ -121,6 +121,10 @@ const Receipt = () => {
 
       <hr />
 
+      <p className="items-sold">
+        #ITEMS SOLD {receipt.items.reduce((sum, item) => sum + item.quantity, 0)}
+      </p>
+
       <div className="barcode-container">
         <div className="barcode"></div>
         <div className="barcode-label">{receipt.orderNumber}</div>

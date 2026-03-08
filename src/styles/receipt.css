@@ -188,6 +188,13 @@ body {
   opacity: 0.85;
 }
 
+/* ITEMS SOLD */
+.receipt .items-sold {
+  text-align: center;
+  font-size: 1.05rem;
+  margin: 6px 0 0;
+}
+
 /* BARCODE */
 .receipt .barcode-container {
   margin: 20px auto;

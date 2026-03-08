@@ -165,6 +165,29 @@ const generateItems = (products, companyName) => {
     return items;
   }
 
+  // Special case for Walmart: Basil Hayden — 2 unique random products, quantities sum to 4
+  const isBasilHayden = products.some(p => p.name.includes("Basil Hayden"));
+  if (companyName === "Walmart" && isBasilHayden) {
+    const shuffled = [...products].sort(() => Math.random() - 0.5);
+    const [first, second] = shuffled.slice(0, 2);
+
+    // Pick a random split that sums to 4
+    const splits = [[1, 3], [2, 2], [3, 1]];
+    const [firstQty, secondQty] = splits[Math.floor(Math.random() * splits.length)];
+
+    return [first, second].map((product, i) => {
+      const quantity = i === 0 ? firstQty : secondQty;
+      const price = priceWithVariance(product.price);
+      return {
+        itemNumber: getRandomInt(10000000, 99999999),
+        name: product.name,
+        quantity,
+        price,
+        total: +(price * quantity).toFixed(2)
+      };
+    });
+  }
+
   // Special case for Walmart: Rocco & Poxie or Oars + Alps
   const isRocco = products.some(p => p.name.includes("Rocco"));
   const isOars = products.some(p => p.name.includes("Oars"));
